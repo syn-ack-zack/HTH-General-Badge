@@ -1,0 +1,343 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:74xx
+LIBS:audio
+LIBS:interface
+LIBS:HTHBadgeFinal-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X1
+U 1 1 5CEC3983
+P 4750 3650
+F 0 "X1" H 5078 3696 50  0000 L CNN
+F 1 "Badgelife_sao_connector_v169bis" H 5078 3605 50  0000 L CNN
+F 2 "HTHBadgeInk:Badgelife-SAOv169-BADGE-2x3" H 4750 3850 50  0001 C CNN
+F 3 "" H 4750 3850 50  0001 C CNN
+	1    4750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_USB-DVI-HDMI-Connectors:10118194-0001LF J1
+U 1 1 5CEC3F56
+P 1250 6250
+F 0 "J1" H 1313 6995 60  0000 C CNN
+F 1 "10118194-0001LF" H 1313 6889 60  0000 C CNN
+F 2 "digikey-footprints:USB_Micro_B_Female_10118194-0001LF" H 1450 6450 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1450 6550 60  0001 L CNN
+F 4 "609-4618-1-ND" H 1450 6650 60  0001 L CNN "Digi-Key_PN"
+F 5 "10118194-0001LF" H 1450 6750 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1450 6850 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 1450 6950 60  0001 L CNN "Family"
+F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1450 7050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-fci/10118194-0001LF/609-4618-1-ND/2785382" H 1450 7150 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 1450 7250 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (FCI)" H 1450 7350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1450 7450 60  0001 L CNN "Status"
+	1    1250 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X2
+U 1 1 5CEC577E
+P 6000 2100
+F 0 "X2" H 6328 2146 50  0000 L CNN
+F 1 "Badgelife_sao_connector_v169bis" H 6328 2055 50  0000 L CNN
+F 2 "HTHBadgeInk:Badgelife-SAOv169-BADGE-2x3" H 6000 2300 50  0001 C CNN
+F 3 "" H 6000 2300 50  0001 C CNN
+	1    6000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X3
+U 1 1 5CEC57E3
+P 7550 3800
+F 0 "X3" H 7878 3846 50  0000 L CNN
+F 1 "Badgelife_sao_connector_v169bis" H 7878 3755 50  0000 L CNN
+F 2 "HTHBadgeInk:Badgelife-SAOv169-BADGE-2x3" H 7550 4000 50  0001 C CNN
+F 3 "" H 7550 4000 50  0001 C CNN
+	1    7550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis X4
+U 1 1 5CEC583A
+P 8750 2050
+F 0 "X4" H 9078 2096 50  0000 L CNN
+F 1 "Badgelife_sao_connector_v169bis" H 9078 2005 50  0000 L CNN
+F 2 "HTHBadgeInk:Badgelife-SAOv169-BADGE-2x3" H 8750 2250 50  0001 C CNN
+F 3 "" H 8750 2250 50  0001 C CNN
+	1    8750 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4450 7350 4350
+Wire Wire Line
+	8550 4450 8550 2600
+Wire Wire Line
+	4550 3100 4550 1250
+Wire Wire Line
+	4550 1250 5800 1250
+Wire Wire Line
+	5800 1250 5800 1550
+Wire Wire Line
+	5800 1250 7350 1250
+Wire Wire Line
+	7350 1250 7350 3250
+Connection ~ 5800 1250
+Wire Wire Line
+	7350 1250 8550 1250
+Wire Wire Line
+	8550 1250 8550 1500
+Connection ~ 7350 1250
+Connection ~ 4550 1250
+$Comp
+L Device:C C2
+U 1 1 5CED6E45
+P 3450 6500
+F 0 "C2" H 3565 6546 50  0000 L CNN
+F 1 "C" H 3565 6455 50  0000 L CNN
+F 2 "HTHBadgeFinal:CL10A105KO8NNNC" H 3488 6350 50  0001 C CNN
+F 3 "~" H 3450 6500 50  0001 C CNN
+	1    3450 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5CED7338
+P 4600 6500
+F 0 "C3" H 4715 6546 50  0000 L CNN
+F 1 "C" H 4715 6455 50  0000 L CNN
+F 2 "HTHBadgeFinal:CL10A105KO8NNNC" H 4638 6350 50  0001 C CNN
+F 3 "~" H 4600 6500 50  0001 C CNN
+	1    4600 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C1
+U 1 1 5CED75D5
+P 2800 6500
+F 0 "C1" H 2915 6546 50  0000 L CNN
+F 1 "CP1" H 2915 6455 50  0000 L CNN
+F 2 "HTHBadgeFinal:CL10A105KO8NNNC" H 2800 6500 50  0001 C CNN
+F 3 "~" H 2800 6500 50  0001 C CNN
+	1    2800 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C4
+U 1 1 5CED7644
+P 5200 6500
+F 0 "C4" H 5315 6546 50  0000 L CNN
+F 1 "CP1" H 5315 6455 50  0000 L CNN
+F 2 "HTHBadgeFinal:CL10A105KO8NNNC" H 5200 6500 50  0001 C CNN
+F 3 "~" H 5200 6500 50  0001 C CNN
+	1    5200 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky D1
+U 1 1 5CED7EA4
+P 2250 6050
+F 0 "D1" H 2250 6266 50  0000 C CNN
+F 1 "D_Schottky" H 2250 6150 50  0000 C CNN
+F 2 "HTHBadgeFinal:B140HW-7" H 2250 6050 50  0001 C CNN
+F 3 "~" H 2250 6050 50  0001 C CNN
+	1    2250 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 6050 2100 6050
+$Comp
+L power:GND #PWR0101
+U 1 1 5CED8750
+P 2050 6650
+F 0 "#PWR0101" H 2050 6400 50  0001 C CNN
+F 1 "GND" H 2055 6477 50  0000 C CNN
+F 2 "" H 2050 6650 50  0001 C CNN
+F 3 "" H 2050 6650 50  0001 C CNN
+	1    2050 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 6450 2050 6450
+Wire Wire Line
+	2050 6450 2050 6650
+$Comp
+L HTH:V_REG_MIC2920 U1
+U 1 1 5CEE21F4
+P 4000 6050
+F 0 "U1" H 4000 6336 59  0000 C CNN
+F 1 "V_REG_MIC2920" H 4000 6231 59  0000 C CNN
+F 2 "HTHBadgeFinal:SOT230P700X180-4N" H 4000 6050 50  0001 C CNN
+F 3 "" H 4000 6050 50  0001 C CNN
+	1    4000 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 6050 2800 6050
+Wire Wire Line
+	3450 6350 3450 6050
+Connection ~ 3450 6050
+Wire Wire Line
+	3450 6050 3700 6050
+Wire Wire Line
+	2800 6350 2800 6050
+Connection ~ 2800 6050
+Wire Wire Line
+	2800 6050 3450 6050
+Wire Wire Line
+	4000 6350 4000 6900
+Wire Wire Line
+	4000 6900 3450 6900
+Wire Wire Line
+	3450 6900 3450 6650
+Wire Wire Line
+	3450 6900 2800 6900
+Wire Wire Line
+	2800 6900 2800 6650
+Connection ~ 3450 6900
+Wire Wire Line
+	4000 6900 4600 6900
+Wire Wire Line
+	4600 6900 4600 6650
+Connection ~ 4000 6900
+Wire Wire Line
+	4600 6900 5200 6900
+Wire Wire Line
+	5200 6900 5200 6650
+Connection ~ 4600 6900
+Wire Wire Line
+	4300 6050 4600 6050
+Wire Wire Line
+	4600 6050 4600 6350
+Wire Wire Line
+	4600 6050 5200 6050
+Wire Wire Line
+	5200 6050 5200 6350
+Connection ~ 4600 6050
+Wire Wire Line
+	5200 6050 5700 6050
+Connection ~ 5200 6050
+Wire Wire Line
+	5800 4450 5800 2650
+Wire Wire Line
+	4550 4200 4550 4450
+Wire Wire Line
+	2750 1250 2750 5150
+Wire Wire Line
+	2750 1250 4550 1250
+Wire Wire Line
+	2750 5150 3550 5150
+$Comp
+L HTH:DPDT SW1
+U 1 1 5CEF5A58
+P 3750 4850
+F 0 "SW1" H 3775 4965 50  0000 C CNN
+F 1 "DPDT" H 3775 4874 50  0000 C CNN
+F 2 "HTHBadgeFinal:JS202011AQN" H 3750 4950 50  0001 C CNN
+F 3 "" H 3750 4950 50  0001 C CNN
+	1    3750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5CEF6E09
+P 8550 4450
+F 0 "#PWR0102" H 8550 4200 50  0001 C CNN
+F 1 "GND" H 8555 4277 50  0000 C CNN
+F 2 "" H 8550 4450 50  0001 C CNN
+F 3 "" H 8550 4450 50  0001 C CNN
+	1    8550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5CEF6E56
+P 7350 4450
+F 0 "#PWR0103" H 7350 4200 50  0001 C CNN
+F 1 "GND" H 7355 4277 50  0000 C CNN
+F 2 "" H 7350 4450 50  0001 C CNN
+F 3 "" H 7350 4450 50  0001 C CNN
+	1    7350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 5CEF6EA3
+P 5800 4450
+F 0 "#PWR0104" H 5800 4200 50  0001 C CNN
+F 1 "GND" H 5805 4277 50  0000 C CNN
+F 2 "" H 5800 4450 50  0001 C CNN
+F 3 "" H 5800 4450 50  0001 C CNN
+	1    5800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5CEF6EF0
+P 4550 4450
+F 0 "#PWR0105" H 4550 4200 50  0001 C CNN
+F 1 "GND" H 4555 4277 50  0000 C CNN
+F 2 "" H 4550 4450 50  0001 C CNN
+F 3 "" H 4550 4450 50  0001 C CNN
+	1    4550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5300 5700 5300
+Wire Wire Line
+	5700 5300 5700 6050
+$Comp
+L HTH:2xAA B1
+U 1 1 5CEFA8D5
+P 5000 5100
+F 0 "B1" H 5000 5225 50  0000 C CNN
+F 1 "2xAA" H 5000 5134 50  0000 C CNN
+F 2 "HTHBadgeFinal:Keystone 2462 2xAA" H 5000 5200 50  0001 C CNN
+F 3 "" H 5000 5200 50  0001 C CNN
+	1    5000 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5CEFAFAF
+P 5950 5000
+F 0 "#PWR0106" H 5950 4750 50  0001 C CNN
+F 1 "GND" H 5955 4827 50  0000 C CNN
+F 2 "" H 5950 5000 50  0001 C CNN
+F 3 "" H 5950 5000 50  0001 C CNN
+	1    5950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5000 4750 5000
+Wire Wire Line
+	5250 5000 5950 5000
+$Comp
+L power:GND #PWR0107
+U 1 1 5CF02262
+P 4000 7200
+F 0 "#PWR0107" H 4000 6950 50  0001 C CNN
+F 1 "GND" H 4005 7027 50  0000 C CNN
+F 2 "" H 4000 7200 50  0001 C CNN
+F 3 "" H 4000 7200 50  0001 C CNN
+	1    4000 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 6900 4000 7200
+$EndSCHEMATC

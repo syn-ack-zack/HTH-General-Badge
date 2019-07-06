@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "HTHBadgeFinal")(type KiCad)(uri "$(KIPRJMOD)/HTHBadgeFinal.pretty")(options "")(descr ""))
+)
