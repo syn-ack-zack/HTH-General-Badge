@@ -9,6 +9,9 @@ have been included as well for your convenience.
 
 The bill of materials can be observed in the file `hth-gen-bom.csv`. A digikey cart can also be [viewed here](https://www.digikey.com/short/p9q0p7) which contains the necessary components to 'electrify' your badge.
 
+
+*Note: An error exists in the traces around the switch for the badge. You must bridge the middle pins of the slide switch as seen in the bottom of the picture below.*
+
 ![](https://i.imgur.com/Cz8MGPml.jpg?1)
 
 
