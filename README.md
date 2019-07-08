@@ -11,7 +11,7 @@ The bill of materials can be observed in the file `hth-gen-bom.csv`. A digikey c
 
 *Note: An error exists in the traces around the switch for the badge. You must bridge the middle pins of the slide switch as seen in the bottom-right of the picture below.*
 
-![](https://i.imgur.com/Cz8MGPml.jpg?1)
+![](https://i.imgur.com/deYARHel.jpg?1)
 
 
 ### Schematic
